@@ -11,36 +11,47 @@
     </head>
 
  <body>
-    <div class="container">
+    <div class="container padding-top padding-bottom">
         <div class="row">
-            <div class="col-lg-4 logo">
+            <div class="col-lg-7 logo">
                 <a href="">
                     <img src="logo.svg" width="260px" height="70px">
                 </a>
             </div>
-            <div class="col-md-6">
-                <input type="search">
+            <div class="col-md-5 search-box">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                    <span class="input-group-addon">
+                        <i class="glyphicon glyphicon-search"></i>
+                    </span>
+                </div>
             </div>
         </div>
     </div> 
     <!-- Container 2 -->
-    <div class="container">
-        <div class="row">
-            <nav class="navbar navber-inverse" role="navigation">
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="#"><i class="bi bi-house-door"></i></a>
-                </div>
-                <div>
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">About us</a></li>
-                        <li class="active"><a href="#">Our stories</a></li>
-                        <li class="active"><a href="#">Brands</a></li>
-                        <li class="active"><a href="#">Healthy Cooking</a></li>
-                        <li class="active"><a href="#">Nestle in society</a></li>
-                        <li class="active"><a href="#">Ask Nestle</a></li>
-                    </ul>
-                </div>
-            </nav>
+    <div class="container-fluid bg-info">
+        <div class="container">
+            <div class="row">
+                <nav class="navbar navber-inverse" role="navigation">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#"><i class="bi bi-house-door"></i></a>
+                    </div>
+                    <div>
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#">About us</a></li>
+                            <li><a href="#">Our stories</a></li>
+                            <li ><a href="#">Brands</a></li>
+                            <li><a href="#">Healthy Cooking</a></li>
+                            <li><a href="#">Nestle in society</a></li>
+                            <li><a href="#">Ask Nestle</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#">Media</a></li>
+                            <li><a href="#">Careers</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
         </div>
     </div>
     <div class="container-fluied">
@@ -61,7 +72,6 @@
                     <div class="carousel-inner">
                         <div class="item active">
                             <img src="slide1.webp" alt="first slide">
-                            
                         </div>
                         <div class="item">
                             <img src="slide2.webp" alt="second slide">
@@ -96,26 +106,30 @@
             </div>
         </div>
     </div> 
-    <div class="container">
+    <div class="container padding-60">
         <div id="" class="container tab-pane active"><br>
             <div class="row">
                 <div class="col-md-3 col-sm-6">
-                    <div class="thumbnail">
-                        <img src="img1.png" class="w-100" alt="">
-                    </div>
-                    <div class="caption">
-                        <h3>MILO 3in1</h3>
-                        <p>Your favorite MILO is now available in sachet format…</p>
+                    <div class="div-shadow">
+                        <div class="thumbnail">
+                            <img src="img1.png" class="w-100" alt="">
+                        </div>
+                        <div class="caption">
+                            <h3>MILO 3in1</h3>
+                            <p>Your favorite MILO is now available in sachet format…</p>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
-                    <div class="thumbnail">
-                    <img src="img2.jpg" class="w-100" alt="">
-                    </div>
-                    <div class="caption">
-                       <h3>Homemade recipes</h3> 
-                       <p>Here are some delicious recipes to help you make tastier and healthier choices for your family and friends.</p>
-                    </div>   
+                    
+                        <div class="thumbnail">
+                            <img src="img2.jpg" class="w-100" alt="">
+                        </div>
+                        <div class="caption">
+                        <h3>Homemade recipes</h3> 
+                        <p>Here are some delicious recipes to help you make tastier and healthier choices for your family and friends.</p>
+                        </div>  
+
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <div class="thumbline">
@@ -138,21 +152,26 @@
             </div>
         </div>
     </div>
-    <div class="container">
-        <div class="row">
-            <!-- <img src="background.webp" width="50%" height="200px"> -->
-             <div class="col-md-6 col-sm-6">
-                <h4>Compliance concerns</h4><br>
-                <p>Speak up about your concern</p><br>
-                <p>Speak up</p>       
-             </div>
-             <div class="col-md-6 col-sm-6">
-                <h4>Contact us</h4><br>
-                <p>Across the globe, Nestlé are here to help answer your queries</p>
-                <p>contact us</p>
-             </div>
+    <div class="container-fluid background-blue">
+        <div class="container">
+            <div class="row padding-top padding-bottom">
+                 <div class="col-md-offset-2 col-md-4 col-sm-6">
+                    <div class="compliance">
+                        <h2>Compliance concerns</h2>
+                        <p>Speak up about your concern</p>
+                        <button class="btn btn-custome">Speak up</button>
+                         
+                    </div>  
+                 </div>
+                 <div class="col-md-4 col-md-offset-2 col-sm-6">
+                    <h4>Contact us</h4><br>
+                    <p>Across the globe, Nestlé are here to help answer your queries</p>
+                    <p>contact us</p>
+                 </div>
+            </div>
         </div>
-    </div><br><br>
+    </div>
+    <br><br>
     <div class="container">
         <div class="row">
             <div class="col-md-3 col-sm-6">
@@ -161,16 +180,18 @@
                 <img src="logo2.jfif" height="200px" width="80%">
             </div>
             <div class="col-md-3 col-sm-6">
-                <h3>ABOUT US</h3>
-                <p>Nestlé worldwide</p><br>
-                <p>Nestlé in Bangladesh</p><br><br><br><br>
-                <h3>Brands</h3>
-                <h5>Dairy</h5>
-                <h5>Foods</h5>
-                <h5>Baby Foods</h5>
-                <h5>Beverage</h5>
-                <h5>Breakfast Carels</h5>
-                <h5>Nestlé Professional</h5>
+                <div class="footer-border">
+                    <h3>ABOUT US</h3>
+                    <p>Nestlé worldwide</p><br>
+                    <p>Nestlé in Bangladesh</p><br><br><br><br>
+                    <h3>Brands</h3>
+                    <h5>Dairy</h5>
+                    <h5>Foods</h5>
+                    <h5>Baby Foods</h5>
+                    <h5>Beverage</h5>
+                    <h5>Breakfast Carels</h5>
+                    <h5>Nestlé Professional</h5>
+                </div>
             </div>
             <div class="col-md-3 col-sm-6">
                 <h4>HEALTHY COOKING</h4>
@@ -191,10 +212,10 @@
     </div> 
     <div class="container">
         <div class="row">
-        <div class="col-md-12 col-sm-12">
-            <h3>FOLLOW US ON</h3>
-            <a class="" href="#"><i class="bi bi-facebook"></i></a>
-            <a class="" href="#"><i class="bi bi-youtube"></i></a>
+        <div class="col-md-12 col-sm-12 text-center ">
+            <h3 class="text-center">FOLLOW US ON</h3>
+            <a class="footer-logo" href="#"><i class="bi bi-facebook"></i></a>
+            <a class="footer-logo" href="#"><i class="bi bi-youtube"></i></a>
         </div>
         </div>
     </div>

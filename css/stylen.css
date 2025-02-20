@@ -1,3 +1,60 @@
 .class-5{
     background-color: rgb(76, 156, 237);
 }
+.padding-top{
+    padding-top: 30px;
+}
+.padding-bottom{
+    padding-bottom: 30px;
+}
+.padding-60{
+    padding-bottom: 60px;
+}
+.search-box{
+    padding-top: 30px;
+}
+.search-box input{
+    border:0;
+    border-radius: 0;
+    border-bottom: 1.5px solid #000;
+}
+.search-box .input-group-addon{
+    border: 0;
+    border-radius: 0;
+    background-color: transparent;
+    border-bottom: 1.5px solid #000;
+}
+.nav.navbar-nav a{
+    color:#3b2312;
+}
+.navbar{
+    margin-bottom: 0;
+}
+.div-shadow{
+    box-shadow: 3px 3px 7px;
+}
+.div-shadow .caption{
+    padding: 0px 25px 25px;
+    min-height: 250px;
+}
+.background-blue{
+    background-image: url('../background.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #007cba;
+}
+.compliance{
+    color:#FFF;
+}
+.btn-custome{
+    padding:5px 10px;
+    background-color: #FFF;
+    color: #000;
+}
+.footer-border{
+    border-top: 1px solid #3b2312;
+    max-width: 80%;
+}
+.footer-logo{
+    font-size: 72px;
+}
