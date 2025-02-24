@@ -1,6 +1,4 @@
-.class-5{
-    background-color: rgb(76, 156, 237);
-}
+
 .padding-top{
     padding-top: 30px;
 }
@@ -46,6 +44,9 @@
 .compliance{
     color:#FFF;
 }
+.contact{
+    color:#fff;
+}
 .btn-custome{
     padding:5px 10px;
     background-color: #FFF;
@@ -57,4 +58,32 @@
 }
 .footer-logo{
     font-size: 72px;
+}
+.bigl{
+    font-size: large;
+    border-top: 5px;
+}
+.icon{
+    font-size:40px;
+    color: #FFF;
+}
+.background-color{
+    background-color: #007cba;
+}
+.ourstories{
+    padding: 150px;
+    text-align: center;
+    background-image: url(../ourstories.webp);
+}
+.text-white{
+    color: #FFF;
+}
+.text-center button{
+margin-top: 40px;
+margin-bottom: 40px;
+}
+.background{
+    margin-top:20px;
+    padding:20px;
+    margin-bottom: 40px;
 }
